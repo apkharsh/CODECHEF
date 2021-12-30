@@ -10,14 +10,8 @@ int main()
     {
         int x, m, d;
         cin >> x >> m >> d;
-        if (x * m <= x + d)
-        {
-            cout << x * m << endl;
-        }
-        else
-        {
-            cout << x + d << endl;
-        }
+        cout << min(x * m , x + d) << endl;
+
     }
     return 0;
 }
